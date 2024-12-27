@@ -7,87 +7,111 @@
     <title>layout</title>
 </head>
 <style>
-    *{
+    * {
         margin: 0%;
         box-sizing: border-box;
     }
+
     header {
         background-color: hsl(0deg 0% 40%);
         color: hsl(0deg 0% 100%);
         text-align: center;
-        padding: 60px;
-        text-size-adjust: 50%;
-        
+        padding: 70px;
+        font-size: 300%;
+
     }
 
 
     section>div>a {
         display: block;
-        
-        
+
+
     }
 
     section>div {
         float: left;
-        
+
     }
-    section>div>p{
+
+    section>div>p {
         padding: 10px;
     }
-    #right{
-        width: 30%;
+
+    .sideBar {
+        width: 20%;
         background-color: hsl(0deg 0% 80%);
         height: 220px;
         padding: 20px;
-        
+
     }
 
-#left{
-    width: 70%;
-   background-color: hsl(0deg 0% 94.51%);
-   height: 220px;
-   padding: 20px;
-}
+    #middle {
+        width: 60%;
+        background-color: hsl(0deg 0% 94.51%);
+        height: 220px;
+        padding: 20px;
+    }
+
+    #leftSide>ul>li{
+       list-style-type: none;  
+       padding: 5px;
+    }
+
+    #leftSide>ul>li>a {
+        
+        text-decoration: none;
+       
+    }
 
     footer {
         clear: left;
         background-color: hsl(0deg 0% 40%);
         color: hsl(0deg 0% 100%);
         text-align: center;
-        padding: 15px;
+        padding: 25px;
+        font-size: 120%;
     }
 </style>
 
 <body>
-   
-        <header>
-            <h3>cities</h3>
-        </header>
 
-        <section>
-            <div id="right">
+    <header>
+        <h3>cities</h3>
+    </header>
 
-                <a href="">london</a>
-                <a href="">paris</a>
-                <a href="">tokyo</a>
-            </div>
-            <div id="left">
-                <h1>london</h1>
-                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quod, repellat officiis. Placeat voluptates
-                    quae quaerat molestias beatae similique aspernatur deleniti unde qui, ipsa sint delectus dolorem in
-                    tempore, temporibus nihil.</p>
-                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quod, repellat officiis. Placeat voluptates
-                    quae quaerat molestias beatae similique aspernatur deleniti unde qui, ipsa sint delectus dolorem in
-                    tempore, temporibus nihil.</p>
-            </div>
+    <section>
+        <div class="sideBar">
+            <a href="">london</a>
+            <a href="">paris</a>
+            <a href="">tokyo</a>
+
+        </div>
+        <div id="middle">
+            <h1>london</h1>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quod, repellat officiis. Placeat voluptates
+                quae quaerat molestias beatae similique aspernatur deleniti unde qui, ipsa sint delectus dolorem in
+                tempore, temporibus nihil.</p>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quod, repellat officiis. Placeat voluptates
+                quae quaerat molestias beatae similique aspernatur deleniti unde qui, ipsa sint delectus dolorem in
+                tempore, temporibus nihil.</p>
+        </div>
+        <div class="sideBar" id="leftSide">
+            <ul>
+
+                <li> <a href="">learn more from london</a> </li>
+                <li><a href="">learn more from paris</a></li>
+                <li><a href="">learn more from tokyo</a></li>
 
 
-        </section>
+            </ul>
+        </div>
 
-        <footer>
-            <h2>footer</h2>
-        </footer>
-   
+    </section>
+
+    <footer>
+        <h2>footer</h2>
+    </footer>
+
 
 
 
