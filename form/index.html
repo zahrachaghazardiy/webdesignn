@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        main {
+            margin: 25px auto;
+            width: 50%;
+        }
+
+        img {
+            border-radius: 50%;
+            height: 50%;
+            width: 50%;
+            margin-left: 23%;
+        }
+
+        label {
+
+            width: 100%;
+            margin: 10px auto;
+            font-weight: bold;
+        }
+
+        input[type=text] {
+            display: inline-block;
+            width: 100%;
+            padding: 10px;
+            margin: 10px auto;
+        }
+
+        input[type=password] {
+            display: inline-block;
+            width: 100%;
+            padding: 10px;
+            margin: 10px auto;
+        }
+
+
+        input#login {
+            display: inline-block;
+            margin: 15px auto;
+            width: 100%;
+            padding: 10px;
+            margin-left: 12px;
+            background-color: #4caf50;
+            color: white;
+        }
+
+        input#login:hover {
+            background-color: #79a37a;
+            cursor: pointer;
+            color: black;
+        }
+        input[type=checkbox]{
+          margin-bottom: 25px;
+        }
+
+        input#cancel {
+            background-color: #f44336;
+            border-radius: 20%;
+            padding: 10px;
+            color: white;
+            width: 10%;
+            font-weight: bold;
+        }
+
+        input#cancel:hover {
+            background-color: #66211c;
+            cursor: pointer;
+        }
+
+        footer {
+            background-color: #f1f1f1;
+            padding: 20px;
+            width: 100%;
+            border-top:1px solid #c2c2c2;
+
+        }
+
+        section{
+            width: 15%;
+            float: right;
+            
+        }
+        section>a{
+            color: black;
+        }
+    </style>
+</head>
+
+<body>
+    <main>
+        <img src="photos/391-3918613_personal-service-platform-person-icon-circle-png-transparent.png" alt="person">
+
+        <form action="#">
+            <label for="user">username</label>
+            <input type="text" name="user" placeholder="enter username">
+            <label for="pass">password</label>
+            <input type="password" name="pass" placeholder="enter password">
+            <input type="submit" id="login" value="Login">
+            <input type="checkbox" name="remember" value="remember">
+            <label for="remember">remember me</label>
+
+
+            <footer>
+                <input type="submit" id="cancel" value="Cancel">
+                <section>
+                    <span>forget</span>  <a href="#"> password?</a>
+                </section>
+              
+            </footer>
+
+
+        </form>
+    </main>
+</body>
+
+</html>
