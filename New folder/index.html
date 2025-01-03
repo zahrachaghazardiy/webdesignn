@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        main {
+            margin: 25px auto;
+            width: 50%;
+        }
+        label{
+            display: inline-block;
+            width: 100%;
+        }
+        input[type=text]{
+            display: inline-block;
+            width: 95%;
+        }
+        input[type=submit]{
+            display: block;
+            margin: 15px auto ;
+            width: 80%;
+            padding: 10px;
+        }
+        input[type=submit]:hover{
+            background-color: #a2a2a2;
+            color: white;
+            cursor: pointer;
+        }
+    </style>
+</head>
+
+<body>
+    <main>
+        <form action="#">
+            <label for="fname">First Name</label>
+            <input type="text" name="fname"  placeholder="Please enter your first name">
+            <label for="lname">Last Name</label>
+            <input type="text" name="lname"  placeholder="Please enter your last name">
+            <input  type="submit" value="Register">
+            
+        </form>
+    </main>
+
+</body>
+
+</html>
