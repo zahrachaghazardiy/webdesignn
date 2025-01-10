@@ -1,0 +1,93 @@
+form>main{
+    float: left;
+}
+main>section {
+    float: left;
+}
+
+main#information {
+    width: 70%;
+    border: 2px solid #d3d3d3;
+    background-color: #f2f2f2;
+    margin: 10px;
+}
+
+main>section#address,
+main>section#payment {
+    width: 50%;
+    padding: 15px;
+
+}
+
+
+main#cart>section{
+    /* width: 20%; */
+    border: 2px solid #d3d3d3;
+    background-color: #f2f2f2;
+    margin-top: 10px;
+
+}
+
+label {
+    display: block;
+    padding: 10px;
+}
+
+input {
+    width: 90%;
+    padding: 5px;
+}
+
+
+div>section {
+    float: left;
+    width: 50%;
+}
+
+input[type=checkbox] {
+    width: 15px;
+}
+
+label[for=checkbox] {
+    display: inline-block;
+}
+
+main#cart>section>div {
+    float: left;
+    width: 50%;
+}
+
+hr {
+    clear: left;
+}
+
+ul {
+    list-style-type: none;
+}
+
+#total {
+    float: left;
+    padding: 10px;
+}
+
+#amount {
+    float: right;
+    padding: 10px;
+
+}
+
+#basket {
+    width: 90%;
+}
+
+input[type=submit] {
+    padding: 15px;
+    width: 90%;
+    margin-left: 50px;
+    margin-bottom: 10px;
+    border: none;
+    background-color: #04aa6d;
+    color: white;
+    border-radius: 5px;
+    font-size: large;
+}
