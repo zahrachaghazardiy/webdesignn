@@ -1,0 +1,99 @@
+form>main {
+    float: left;
+}
+
+input {
+    width: 90%;
+padding: 5px;
+    margin: 5px 5px 5px 0px;
+}
+label {
+    display: block;
+    
+}
+
+main#information {
+    width: 70%;
+    background-color: #f2f2f2;
+    margin: 10px;
+    padding: 10px;
+    border: 2px solid #d3d3d3;
+}
+
+
+main#cart {
+    width: 25%;
+    background-color: #f2f2f2;
+    margin: 10px;
+    padding: 10px;
+    border: 2px solid #d3d3d3;
+  
+}
+
+main#information>div {
+    float: left;
+    width: 50%;
+}
+
+main#information>div>section {
+    float: left;
+    width: 47%;
+}
+
+
+main#cart>section>div{
+    float: left;
+}
+#basket{
+    width: 80%;
+    list-style-type: none;
+   
+}
+hr{
+    clear: left;
+}
+
+main#cart>section>div#price {
+    float: right;
+    padding: 15px;
+}
+
+input[type=checkbox] {
+    width: 15px;
+    float: left;
+    margin: 5px;
+}
+
+input[type=submit]{
+    color: white;
+    padding: 10px;
+    margin: 10px;
+    border: none;
+    background-color: #04aa6d;
+    border-radius: 5px;
+    margin-top: 40px;
+    margin-left: 40px;
+}
+
+#total{
+    float: left;
+    padding: 10px;
+    padding-left: 40px;
+}
+
+#amount{
+    float: right;
+    padding: 10px;
+    padding-right: 30px;
+}
+main#cart>section>div#basket>ul{
+    list-style-type: none;
+
+}
+main#cart>section>div#basket>ul>li{
+    padding-bottom: 15px;
+
+}
+#basket>h1{
+    padding-left: 30px;
+}
