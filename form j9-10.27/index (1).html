@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>form</title>
+    <link rel="stylesheet" href="style/initializer.css">
+    <link rel="stylesheet" href="style/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+</head>
+
+<body>
+
+    <form action="#">
+
+        <main id="information">
+            <div id="billing">
+                <h2>Billing address</h2>
+
+                <label for="full name "> <i class="fa-solid fa-user"></i>Full name</label>
+                <input type="text" name="full name" placeholder="john M.Doe">
+                <label for="email"><i class="fa-solid fa-envelope"></i>Email</label>
+                <input type="email" name="email" placeholder="john@example.com">
+                <label for="address"><i class="fa-regular fa-address-card"></i>Address</label>
+                <input type="text" name="address" placeholder="425 W.15th">
+                <label for="city"> <i class="fa-solid fa-building"></i> City</label>
+                <input type="text" name="city" placeholder="new york">
+
+                <section>
+                    <label for="state">State</label>
+                    <input type="text" name="state" placeholder="NY">
+                </section>
+                <section>
+                    <label for="zip ">Zip</label>
+                    <input type="text" name="zip" placeholder="1000 01"><br>
+                </section><br>
+
+
+                <input type="checkbox" name="checkbox" checked="true">
+                <label for="checkbox">Shipping address same as billing</label>
+
+
+
+
+            </div>
+
+            <div id="payment">
+
+                <h2>Payment</h2>
+                <h3>Accepted Card</h3>
+                <i class="fa-brands fa-cc-visa" style="color: #003797; font-size: xx-large;"></i>
+                <i class="fa-brands fa-cc-mastercard" style="color: #f27836;font-size: xx-large;"></i>
+                <i class="fa-brands fa-cc-discover" style="color: #FFD43B;font-size: xx-large;"></i>
+
+
+
+
+                <label for="Name">Name on Card</label>
+                <input type="text" name="Name" placeholder="john more Doe">
+                <label for="number">Credit card number</label>
+                <input type="text" name="number" placeholder="1111-2222-3333-4444">
+                <label for="exp">Exp Month</label>
+                <input type="text" name="exp" placeholder="september">
+                <section><label for="year">Exp Year</label>
+                    <input type="text" name="year" placeholder="2018">
+                </section>
+                <section> <label for="cvv">CVV</label>
+                    <input type="text" name="cvv" placeholder="352">
+                </section>
+
+            </div>
+
+
+            <input type="submit" value="continue to checkout">
+        </main>
+
+        <main id="cart">
+            <section>
+                <div id="basket">
+                    <h1>Cart</h1>
+                    <ul>
+
+                        <li><a href="">product 1</a></li>
+                        <li><a href="">product 2</a></li>
+                        <li><a href="">product 3</a></li>
+                        <li><a href="">product 4</a></li>
+
+                    </ul>
+
+                </div>
+                <div id="price">
+
+                    <h1><i class="fa-solid fa-cart-shopping" style="font-size: medium;"></i>4</h1>
+                    <p>$15</p>
+                    <p>$5</p>
+                    <p>$8</p>
+                    <p>$2</p>
+
+                </div>
+
+            </section>
+            <hr>
+            <div>
+                <p>
+                    <span id="total"><b>total</b></span><span id="amount"><b>$30</b></span>
+                </p>
+            </div>
+
+
+        </main>
+
+    </form>
+
+</body>
+
+</html>

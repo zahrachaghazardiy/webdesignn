@@ -1,0 +1,144 @@
+form>main {
+    float: left;
+}
+
+input {
+    width: 90%;
+    padding: 8px;
+    margin: 5px 5px 5px 0px;
+}
+
+label {
+    display: block;
+    margin: 8px;
+    padding-top: 10px;
+}
+label[for=Name]{
+    margin-top: 16px;
+}
+
+main#information {
+    width: 70%;
+    background-color: #f2f2f2;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 5px;
+    border: 2px solid #d3d3d3;
+}
+
+main#information>div#billing>input{
+    margin-left: 10px;
+}
+div#billing>section{
+    margin-left: 8px;
+}
+
+main#cart {
+    width: 20%;
+    background-color: #f2f2f2;
+    margin: 10px;
+    padding: 10px;
+    border: 2px solid #d3d3d3;
+    border-radius: 5px;
+}
+
+main#information>div {
+    float: left;
+    width: 50%;
+}
+
+
+main#information>div>section {
+    float: left;
+    width: 47%;
+    padding-bottom: 10px;
+}
+
+
+main#cart>section>div {
+    float: left;
+}
+
+hr {
+    clear: left;
+    color: #d2d2d2;
+    width: 100%;
+}
+
+#basket {
+    width: 80%;
+    list-style-type: none;
+    text-align: left;
+
+}
+
+
+
+main#cart>section>div#price {
+    float: right;
+    padding: 0px 15px 15px 15px;
+    text-align: right;
+
+}
+
+input[type=checkbox] {
+    width: 24px;
+    float: left;
+    margin: 5px;
+}
+label[for=checkbox]{
+    margin-top: 81px;
+}
+
+
+input[type=submit] {
+    color: white;
+    padding: 10px;
+    margin: 10px;
+    border: none;
+    background-color: #04aa6d;
+    border-radius: 5px;
+    width: 98%;
+    font-size: larger;
+    cursor: pointer;
+}
+
+input[type=submit]:hover {
+    background-color: #6af799b2;
+    color: black;
+}
+
+#total {
+    float: left;
+    padding: 10px;
+    padding-left: 30px;
+}
+
+#amount {
+    float: right;
+    padding: 10px;
+    padding-right: 15px;
+}
+
+section>div#basket>ul {
+    list-style-type: none;
+    padding-left: 20px;
+
+}
+
+div#basket>ul>li {
+    padding-bottom: 15px;
+    text-align: left;
+
+
+}
+
+#basket>h1 {
+    padding-left: 15px;
+}
+
+
+div#price>p {
+    color: #9f9f9f;
+
+}
