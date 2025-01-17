@@ -1,0 +1,169 @@
+form>main {
+    float: left;
+}
+
+input {
+    width: 90%;
+    padding: 8px;
+    margin: 5px 5px 5px 0px;
+    
+}
+
+label {
+    display: block;
+    margin: 8px;
+    padding-top: 10px;
+    font-size: larger;
+}
+label[for=Name]{
+    margin-top: 21px;
+}
+
+main#information {
+    width: 70%;
+    background-color: #f2f2f2;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #d3d3d3;
+}
+
+main#information>div#billing>input{
+    margin-left: 10px;
+}
+div#billing>section{
+    margin-left: 8px;
+   
+}
+div#billing>div{
+    clear: left;
+}
+
+main#cart {
+    width: 23%;
+    background-color: #f2f2f2;
+    margin: 10px;
+    padding: 10px;
+    border: 2px solid #d3d3d3;
+    border-radius: 5px;
+}
+
+main#information>div {
+    float: left;
+    width: 50%;
+}
+
+
+main#information>div>section {
+    float: left;
+    width: 43%;
+    padding-bottom: 10px;
+}
+input[name=zip],input[name=cvv]{
+    margin-left: 38px;
+}
+label[for=cvv]{
+    margin-left: 40px;
+
+}
+label[for=zip]{
+    margin-left: 40px;
+}
+main#cart>section>div {
+    float: left;
+}
+
+hr {
+    clear: left;
+    color: #d2d2d2;
+    width: 100%;
+}
+
+#basket {
+    width: 70%;
+    list-style-type: none;
+    text-align: left;
+
+}
+
+
+
+main#cart>section>div#price {
+    width: 20%;
+    padding: 0px 15px 15px 15px;
+    text-align: right;
+
+}
+
+input[type=checkbox] {
+    width: 30px;
+    float: left;
+  margin: 0%;
+  margin-top: 3px;
+}
+label[for=checkbox]{
+  
+    padding: 0%;
+   
+    font-size: larger;
+    
+}
+
+
+input[type=submit] {
+    color: white;
+    padding: 10px;
+    margin: 10px;
+    margin-top: 20px;
+    border: none;
+    background-color: #04aa6d;
+    border-radius: 5px;
+    width: 98%;
+   font-size: larger;
+    cursor: pointer;
+}
+
+input[type=submit]:hover {
+    background-color: #6af799b2;
+    color: black;
+}
+
+#total {
+    float: left;
+    padding: 10px;
+    padding-left: 20px;
+    
+}
+
+#amount {
+    float: right;
+    padding: 10px;
+    padding-right: 15px;
+}
+
+section>div#basket>ul {
+    list-style-type: none;
+    padding-left: 20px;
+
+}
+
+div#basket>ul>li {
+    padding-bottom: 15px;
+    text-align: left;
+
+
+}
+
+#basket>h1 {
+    padding-left: 15px;
+}
+
+
+div#price>p {
+    color: #9f9f9f;
+
+    
+}
+i{
+    padding-right:10px ;
+}
