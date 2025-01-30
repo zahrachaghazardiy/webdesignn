@@ -1,0 +1,250 @@
+* {
+    box-sizing: border-box;
+    margin: 0%;
+
+}
+
+nav {
+    height: 118px;
+    background-color: rgb(55, 38, 26);
+}
+
+nav>div {
+    float: left;
+    width: 48%;
+}
+
+nav>div>h2 {
+    text-align: left;
+    color: rgb(243, 236, 226);
+    padding-top: 8px;
+    margin-bottom: 7px;
+}
+
+nav>div#cart {
+    color: rgb(243, 236, 226);
+    padding: 10px;
+
+}
+
+nav>div#cart>a>i {
+    padding: 5px;
+}
+
+nav>ul>li {
+    float: right;
+    width: 25%;
+    direction: rtl;
+    list-style-type: none;
+    text-align: center;
+    padding: 20px;
+    font-size: larger;
+}
+
+nav>div#cart>a {
+    color: rgb(243, 236, 226);
+    cursor: pointer;
+    text-decoration: none;
+}
+
+nav>ul>li>a {
+    color: rgb(243, 236, 226);
+    cursor: pointer;
+    text-decoration: none;
+}
+
+
+li:hover {
+    background-color: rgb(94, 65, 44);
+
+    cursor: pointer;
+}
+
+main#women>div {
+    text-align: center;
+    padding: 100px 50px 100px 50px;
+    background-color: rgba(55, 38, 26, 0.789);
+    color: white;
+}
+
+main#women {
+    background-image: url(img/rrrrr\ \(1\).jpg);
+    background-size: cover;
+
+}
+
+main#bag>div {
+    float: left;
+    width: 30%;
+    margin: 19px;
+    border: 2px solid rgba(55, 38, 26, 0.608);
+    text-align: center;
+    border-radius: 4px;
+    margin-bottom: 40px;
+
+}
+
+main#bag>div>h4 {
+    text-align: left;
+    padding: 15px;
+}
+
+select {
+    width: 80%;
+    margin-bottom: 10px;
+    padding: 5px;
+}
+
+input[type=submit] {
+    width: 91%;
+    margin-bottom: 10px;
+    background-color: rgb(55, 38, 26);
+    border: 1px solid rgb(243, 236, 226);
+    color: rgb(243, 236, 226);
+    padding: 7px;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+input[type=submit]:hover {
+    background-color: rgb(243, 236, 226);
+    color: rgb(55, 38, 26);
+    border: 1px solid rgb(55, 38, 26);
+}
+
+main>div#load>a {
+    color: rgb(55, 38, 26);
+    margin: 20px;
+    margin-left: 35.5%;
+    font-size: xx-large;
+    font-weight: bold;
+    padding: 10px 50px 10px 50px;
+    border-radius: 8px;
+    border: 2px solid rgb(55, 38, 26);
+    text-decoration: none;
+
+}
+
+div#more>a {
+    color: rgb(55, 38, 26);
+    border: 2px solid rgb(55, 38, 26);
+    padding: 7px;
+    margin: 11px;
+    margin-top: 10px;
+    border-radius: 8px;
+    text-decoration: none;
+}
+
+div#more>a:hover {
+    border: 1px solid rgb(243, 236, 226);
+}
+
+footer>div {
+    float: left;
+    width: 33%;
+    text-align: center;
+    margin-top: 20px;
+    background-color: rgb(55, 38, 26);
+}
+
+footer>div>ul>li>a {
+    display: block;
+    color: rgb(243, 236, 226);
+    text-decoration: none;
+    padding: 20px;
+}
+
+footer>div>ul>li {
+    list-style-type: none;
+}
+
+footer>div>h3 {
+    margin-top: 20px;
+    color: rgb(243, 236, 226);
+    padding-left: 35px;
+}
+
+footer>div>hr {
+    color: rgb(243, 236, 226);
+}
+
+footer>div>ul>li>a:hover {
+    font-weight: bolder;
+    background-color:  rgb(55, 38, 26);
+
+}
+
+
+
+@media(max-width:700px) {
+    nav>ul>li {
+        width: 100%;
+        display: block;
+
+    }
+
+    nav {
+        height: 330px;
+        background-color: rgb(243, 236, 226);
+    }
+
+    nav>div>h2 {
+        color: rgb(55, 38, 26);
+        text-align: left;
+        padding: 5px;
+    }
+
+    nav>div#cart>a {
+        background-color: rgb(55, 38, 26);
+        padding: 5px;
+        border-radius: 5px;
+    }
+
+    nav>div#cart>a>span {
+        color: rgb(243, 236, 226);
+    }
+
+    nav>ul>li>a {
+        color: rgb(55, 38, 26);
+        text-align: center;
+
+    }
+
+    main#bag>div {
+        display: block;
+        width: 100%;
+
+    }
+
+    main#bag>div>h4 {
+        text-align: center;
+    }
+
+    main>div#load>a {
+        margin-left: 30%;
+
+    }
+
+    main>div#more>a {
+        display: none;
+    }
+    
+    footer>div{
+        width: 100%;
+        background-color: rgb(243, 236, 226);
+        
+    }
+    footer>div>ul>li>a{
+        color: rgb(55, 38, 26);
+    }
+    footer>div>h3{
+       color:  rgb(55, 38, 26);
+    }
+    footer>div>hr{
+        color:  rgb(55, 38, 26);
+       
+    }
+    footer>div>h3{
+        font-size: x-large;
+    }
+}
