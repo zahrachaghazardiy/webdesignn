@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            box-sizing: border-box;
+            margin: 0;
+        }
+        #container{
+            z-index: -2;
+            position: relative;
+            background-color: #f2f2f2;
+            height: 300px;
+        }
+        p{
+            z-index: 1;
+            width: 50%;
+            margin: 15px auto;
+        }
+        img{
+            position: absolute;
+            top: 5px;
+            left: 350px;
+            z-index: -1;
+            width: 10%;
+        }
+    </style>
+</head>
+<body>
+    <div id="container">
+        <p>Yoda was a legendary Jedi Master and stronger than most in his connection with the Force. Small in size but wise and powerful, he trained Jedi for over 800 years, playing integral roles in the Clone Wars, the instruction of Luke Skywalker, and unlocking the path to immortality</p>
+        <img src="yoda_PNG8.png" alt="yoda">
+    </div>
+</body>
+</html>

@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            box-sizing: border-box;
+            margin: 0;
+        }
+        #container{
+            z-index: 0;
+            position: relative;
+            height: 300px;
+            background-color: rgba(200,200,200,.5);
+        }
+        #greyZone{
+            z-index: 99;
+            left: 100px;
+            top: 150px;
+            position: absolute;
+            width: 50%;
+            height: 200px;
+            border: 1px solid black;
+            background-color: grey;
+        }
+        #blueZone{
+            z-index: 2;
+            position: absolute;
+            left: 50px;
+            width: 50%;
+            height:200px ;
+            border: 1px solid black;
+            background-color: lightblue;
+        }
+
+    </style>
+</head>
+<body>
+    <div id="container">
+        <div id="greyZone">
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Numquam reiciendis ex tempore quaerat ut quae dolorem cupiditate minima accusantium tenetur aliquid impedit error velit, delectus sit asperiores sequi nisi nam.</p>
+        </div>
+        <div id="blueZone">
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Unde nihil commodi iure numquam dolorum quibusdam quae libero in id quia quaerat optio nulla, perferendis culpa laboriosam molestiae error iste temporibus!</p>
+        </div>
+    </div>
+</body>
+</html>
