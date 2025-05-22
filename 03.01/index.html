@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-4Q6Gf2aSP4eDXB8Miphtr37CMZZQ5oXLH2yaXMJ2w8e2ZtHTl7GptT4jmndRuHDT" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-j1CDi7MgGQ12Z7Qab0qlWQ/Qqz24Gc6BM0thvEMVjHnfYGF0rmFCozFSxQBxwHKO"
+        crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="style/style.css">
+    <title>Email Manager</title>
+</head>
+
+<body>
+
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-md-3">
+                <div class="bg-dark text-secondary  p-1 ">
+         <p class="pt-2">         
+<button type="button" class="btn btn-dark" data-bs-toggle="modal" data-bs-target="#myModal">
+     New Massage <i class="bi bi-pencil text-light p-1"></i></p>
+  </button></p> 
+                </div>
+                <div class="accordion" id="accordionExample">
+                    <div class="accordion-item">
+                        <h2 class="accordion-header">
+                            <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                <i class="bi bi-inbox-fill p-1"></i> Inbox(3)
+                            </button>
+                        </h2>
+                        <div id="collapseOne" class="accordion-collapse collapse show"
+                            data-bs-parent="#accordionExample">
+                            <div class="accordion-body">
+                                <div class="d-flex">
+                                    <img src="img/avatar3.png" alt="Borge Refsnes" width="20%">
+                            <p id="name" class="pt-3 ">Borge Refsnes</p>
+ 
+                                </div>
+                           
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="p-3 ps-4">
+                    <p><i class="bi bi-send-fill p-1"></i>Sent</p>
+                </div>
+                <div class="p-3 ps-4">
+                    <p><i class="bi bi-hourglass-bottom p-1"></i>Drafts</p>
+                </div>
+                <div class="p-3 ps-4">
+                    <p><i class="bi bi-trash-fill p-1"></i>Trash</p>
+                </div>
+            </div>
+
+            <div class="col-md-9">
+                <div>
+                    <img id="email-pic" src="img/avatar3.png" alt="Borge Refsens" width="20%">
+                    <p id="subject">Subject: Remember Me</p>
+                    <p id="from"><i class="bi bi-clock"></i>From Borge Refsnes, Sep 27, 2015.</p>
+                    <div>
+                        <button>Reply</button>
+                        <button>Forward</button>
+                        <p id="desc">Hello, i just wanted to let you know that i'll be home at lorem ipsum dolor sit
+                            amet,
+                            consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna
+                            aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip
+                            ex ea commodo consequat. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui
+                            officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod
+                            tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
+                            exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                            <br>
+                            <br>
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+                            labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
+                            laboris nisi ut aliquip ex ea commodo consequat. Excepteur sint occaecat cupidatat non
+                            proident, sunt in culpa qui officia deserunt mollit anim id est laborum consectetur
+                            adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
+                            ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                            consequat.
+
+
+                        </p>
+                        <p id="signnature">
+                            Best Regards, <br>
+                            Borge Refsnes
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+    </div>
+
+    </div>
+    </div>
+
+
+    <div class="container mt-3">
+
+  
+  
+</div>
+
+<!-- The Modal -->
+<div class="modal" id="myModal">
+  <div class="modal-dialog">
+    <div class="modal-content">
+
+      <!-- Modal Header -->
+      <div class="modal-header bg-danger text-light">
+        <h4 class="modal-title">Send Mail</h4>
+        <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+      </div>
+
+      <!-- Modal body -->
+      <div class="modal-body">
+       <div class="mb-3">
+  <label for="exampleFormControlInput1" class="form-label">To</label>
+  <input type="email" class="form-control" id="exampleFormControlInput1">
+</div>
+   <div class="mb-3">
+  <label for="exampleFormControlInput1" class="form-label">From</label>
+  <input type="email" class="form-control" id="exampleFormControlInput2">
+</div>
+   <div class="mb-3">
+  <label for="exampleFormControlInput1" class="form-label">Subject</label>
+  <input type="email" class="form-control" id="exampleFormControlInput3">
+</div>
+<div class="mb-3">
+  <label for="exampleFormControlTextarea1" class="form-label"></label>
+  <textarea class="form-control pt-5" id="exampleFormControlTextarea1" rows="3" placeholder="What's on your mind?"></textarea>
+</div>
+      </div>
+
+      <!-- Modal footer -->
+      <div class="modal-footer d-flex justify-content-between">
+        <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Cancel</button>
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Send<i class="bi bi-send-fill p-1"></i></button>
+      </div>
+
+    </div>
+  </div>
+</div>
+
+</body>
+
+</html>
